@@ -1,4 +1,4 @@
-
+b1
 body {
 	padding: 0;
 	margin: 0;
@@ -91,7 +91,7 @@ p,ul li,ol li{
 }
 .find-about a:hover {
 	background: white;
-	color: #0d213f;
+	color: #04354e;
 	border: 2px solid white;
 	transition: .5s ease-in;
 	-webkit-transition: .5s ease-in;
@@ -108,7 +108,7 @@ p,ul li,ol li{
 /*-- //main --*/
 /*-- header --*/
 .header-main {
-	background:#0d213f;
+	background:#04354e;
 	position: absolute;
 	width: 100%;
 	top: 0;
@@ -303,7 +303,7 @@ p,ul li,ol li{
 	}
 	.banner-info h2 {
 		color: #fff;
-		/* text-shadow: 4px 0px 0px #0d213f; */
+		/* text-shadow: 4px 0px 0px #04354e; */
 		font-size: 5.5em;
 		border-radius: 10px;
 		letter-spacing: 4px;
@@ -331,7 +331,7 @@ p,ul li,ol li{
 	/*-- //banner-text --*/
 	/*-- banner-top --*/
 	.agile-banner-main{
-		background: url(../images/b1.jpg) no-repeat 0px 0px;
+		background: url(http://multitape.co/wp-content/uploads/2016/07/services_-digital-printing.jpg) no-repeat 0px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -409,7 +409,7 @@ p,ul li,ol li{
 
 	.banner-btm-g2 {
 		padding: 2em 2.5em;
-		background: #141213;
+		background: #04354e;
 	}
 	h3.title-main {
 		color: #fff;
@@ -424,7 +424,7 @@ p,ul li,ol li{
 	/* //about */
 	h3.w3layouts-title{
 		font-size: 50px;
-		color: #0d213f;
+		color: #04354e;
 		text-transform: capitalize;
 	}
 	.banner-btm-g2 p {
@@ -441,7 +441,7 @@ p,ul li,ol li{
 	.menu-text-left img {
 		border-radius: 50%;
 		padding: 3px;
-		border: 4px solid #0d213f;
+		border: 4px solid #04354e;
 	}
 	.load_more {
 		background: #fff;
@@ -495,7 +495,7 @@ p,ul li,ol li{
 		display: inline;
 	}
 	h4.price-clr {
-		color: #00bb83;
+		color: #ec269d;
 	}
 	/*-------*/
 	#myList li{
@@ -512,9 +512,9 @@ p,ul li,ol li{
 		width: 12%;
 		margin-right: 1em;
 		display: inline-block;
-		border: 1px solid #0d213f;
+		border: 1px solid #04354e;
 		font-size: 1.1em;
-		background: url(../images/icon2.png)no-repeat #0d213f 105px 16px;
+		background: url(../images/icon2.png)no-repeat #04354e 105px 16px;
 		position: relative;
 		transition: 0.5s all ease;
 		-webkit-transition: 0.5s all ease;
@@ -526,7 +526,7 @@ p,ul li,ol li{
 		text-align: center;
 	}
 	#loadMore:hover {
-		color:#0d213f;
+		color:#04354e;
 		background: url(../images/icon1.png)no-repeat #fff  105px 16px;
 		font-weight: 600;
 	}
@@ -537,9 +537,9 @@ p,ul li,ol li{
 		width: 12%;
 		margin-left: 1em;
 		display: inline-block;
-		border: 1px solid #0d213f;
+		border: 1px solid #04354e;
 		font-size: 1.1em;
-		background:url(../images/icon4.png) #0d213f no-repeat 105px 16px;
+		background:url(../images/icon4.png) #04354e no-repeat 105px 16px;
 		position: relative;
 		transition: 0.5s all ease;
 		-webkit-transition: 0.5s all ease;
@@ -551,7 +551,7 @@ p,ul li,ol li{
 		text-align: center;
 	}
 	#showLess:hover {
-		color:#0d213f;
+		color:#04354e;
 		background:url(../images/icon3.png) #fff no-repeat 105px 16px;
 		font-weight: 600;
 	}
@@ -596,7 +596,7 @@ p,ul li,ol li{
 		position: relative;
 	}
 	.book-right {
-		background:#0d213f;
+		background:#04354e;
 		padding:2em 0 0;
 	}
 	.book-right1 {
@@ -669,7 +669,7 @@ p,ul li,ol li{
 		box-shadow: 5px 5px 0px 0px rgb(156, 213, 196);
 	}
 	.book-right input[type=submit] {
-		color: #0d213f;
+		color: #04354e;
 		padding: 14px 0;
 		font-size: 17px;
 		text-transform: uppercase;
@@ -709,10 +709,10 @@ p,ul li,ol li{
 		padding: 0;
 	}
 	.about-img1{
-		background: url(../images/about2.jpg)no-repeat center;
+		background: url(https://images.unsplash.com/photo-1485808258529-a871c11a7d6d?auto=format&fit=crop&w=750&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D)no-repeat center;
 	}
 	.about-img2 {
-		background: url(../images/g1.jpg)no-repeat center;
+		background: url(https://images.unsplash.com/photo-1456456496250-d5e7c0a9b44d?auto=format&fit=crop&w=751&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D)no-repeat center;
 	}
 	.about-img2 ,.about-img1{
 		-webkit-background-size: cover;
@@ -721,7 +721,7 @@ p,ul li,ol li{
 		min-height: 291px;
 	}
 	.about-bg{
-		background: url(../images/modal.jpg)no-repeat center;
+		background: url(http://multitape.co/wp-content/uploads/2016/07/services_-digital-printing.jpg)no-repeat center;
 		-webkit-background-size: cover;
 		background-size: cover;
 		-moz-background-size: cover;
@@ -737,7 +737,7 @@ p,ul li,ol li{
 		-webkit-transition: .5s all;
 		transition: .5s all;
 		-moz-transition: .5s all;
-		background-color: #FAA026;
+		background-color: #a8cf45;
 	}
 	.about-bottom-text:before {
 		content: '';
@@ -745,7 +745,7 @@ p,ul li,ol li{
 		bottom: -13px;
 		left: 50%;
 		z-index: 999;
-		border-top: 13px solid #faa026;
+		border-top: 13px solid #a8cf45;
 		border-right: 13px solid transparent;
 		border-left: 13px solid transparent;
 		-webkit-transition: .5s all;
@@ -755,7 +755,7 @@ p,ul li,ol li{
 	.about-bottom-text.ab1:before {
 		transform: rotate(180deg);
 		-webkit-transform:rotate(180deg);
-		border-top: 13px solid #00bb83;
+		border-top: 13px solid #ec269d;
 		border-right: 13px solid transparent;
 		border-left: 13px solid transparent;
 		bottom: 100%;
@@ -767,7 +767,7 @@ p,ul li,ol li{
 	}
 
 	.about-bottom-text.ab1 {
-		background-color: #00bb83;
+		background-color: #ec269d;
 		color: #fff;
 	}
 
@@ -827,10 +827,10 @@ p,ul li,ol li{
 		margin-top: 90px;
 	}
 	.carousel-control {
-		color: #0d213f;
+		color: #04354e;
 	}
 	a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
-		border-color: #0d213f;
+		border-color: #04354e;
 	}
 	.carousel-control.right {
 		right: -12px;
@@ -945,7 +945,7 @@ p,ul li,ol li{
 		padding: 15px 18px;
 	}
 	.block-text h6 {
-		color: #0d213f;
+		color: #04354e;
 		font-size: 20px;
 		font-weight: bold;
 		text-transform: capitalize;
@@ -976,7 +976,7 @@ p,ul li,ol li{
 		z-index: 2;
 	}
 	.person-text h5 {
-		color: #0d213f;
+		color: #04354e;
 		display: block;
 		font-size: 14px;
 		margin-top: 3px;
@@ -1011,7 +1011,7 @@ p,ul li,ol li{
 	h3.title-contact {
 		font-size: 39px;
 		text-transform: capitalize;
-		color: #0d213f;
+		color: #04354e;
 		margin-bottom: 20px;
 	}
 	.contact-right input[type="text"], .contact-right input[type="email"] {
@@ -1049,11 +1049,11 @@ p,ul li,ol li{
 	}
 
 	.contact-right input[type="submit"] {
-		background: #0d213f;
+		background: #04354e;
 		color: #FFF;
 		padding: .9em 1.8em;
 		margin-top: 1.3em;
-		border: 1px solid #0d213f;
+		border: 1px solid #04354e;
 		outline: none;
 		font-size: 0.9em;
 	}
@@ -1073,7 +1073,7 @@ p,ul li,ol li{
 	/*-- //contact --*/
 	/*--footer--*/
 	.footer-grid {
-		background: #0d213f;
+		background: #04354e;
 		padding: 2em 0;
 		margin-bottom: 3em;
 	}
@@ -1101,7 +1101,7 @@ p,ul li,ol li{
 
 	.w3_agileits-subscribe {
 		width: 50%;
-		background: url(../images/sub.jpg) no-repeat center;
+		background: url(../images/b1.jpg) no-repeat center;
 		background-size: cover;
 		margin: 0 auto;
 		padding:3em 2em;
@@ -1133,7 +1133,7 @@ p,ul li,ol li{
 		margin: 15px auto 0;
 		border: 5px ridge white;
 		padding: 10px;
-		background: #0d213f;
+		background: #04354e;
 	}
 	.w3_agileits-subscribe h5 {
 		font-size: 25px;
@@ -1163,13 +1163,13 @@ p,ul li,ol li{
 	}
 	.w3_agileits-subscribe input[type="submit"]:hover{
 		background: #fff;
-		color: #0d213f;
-		border-left:1px solid #0d213f;
+		color: #04354e;
+		border-left:1px solid #04354e;
 	}
 	.w3_agileits-subscribe input[type="submit"] {
 		width: 20%;
 		float: left;
-		color: #0d213f;
+		color: #04354e;
 		font-size: 14px;
 		font-weight: 600;
 		text-transform: capitalize;
@@ -1185,7 +1185,7 @@ p,ul li,ol li{
 	}
 	.footer-cpy {
 		margin: 3em 0 0;
-		background: #0d213f;
+		background: #04354e;
 		padding: 2em 0;
 		border-top: 2px dashed #F5DDDD;
 		border-bottom: 2px dashed #F5DDDD;
@@ -1283,7 +1283,7 @@ p,ul li,ol li{
 	}
 	.footer_grid_bottom.contact ul li span {
 		font-size: 30px;
-		color: #0d213f;
+		color: #04354e;
 		text-align: center;
 		display: inline-block;
 		width: 80px;
@@ -1343,7 +1343,7 @@ p,ul li,ol li{
 	/*-- //welcome --*/
 	/*-- slid --*/
 	.slid {
-		background: url(../images/b1.jpg)no-repeat center fixed;
+		background: url(http://multitape.co/wp-content/uploads/2016/07/services_-digital-printing.jpg)no-repeat center fixed;
 		background-size: cover;
 		min-height: 458px;
 		position:relative;
@@ -1586,7 +1586,7 @@ p,ul li,ol li{
 				padding: 70px 0;
 			}
 			.list-right {
-				background: #0d213f;
+				background: #04354e;
 				float: none;
 			}
 			.list-right li {
@@ -2229,7 +2229,7 @@ p,ul li,ol li{
 				width: 100%;
 			}
 			.w3_agileits-subscribe input[type="submit"]:hover {
-				border-top: 1px solid #0d213f;
+				border-top: 1px solid #04354e;
 				border-left: 0;
 			}
 			p.sub-p {
