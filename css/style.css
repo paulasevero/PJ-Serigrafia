@@ -67,6 +67,9 @@ p,ul li,ol li{
 
 
 /*-- main --*/
+.img-responsive{
+	height: 360px;
+}
 .banner-info h1 a img {
 	width: 50%;
 	display: block;
@@ -331,7 +334,7 @@ p,ul li,ol li{
 	/*-- //banner-text --*/
 	/*-- banner-top --*/
 	.agile-banner-main{
-		background: url(http://multitape.co/wp-content/uploads/2016/07/services_-digital-printing.jpg) no-repeat 0px 0px;
+		background: url(../images/3.jpg) no-repeat 0px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -709,10 +712,11 @@ p,ul li,ol li{
 		padding: 0;
 	}
 	.about-img1{
-		background: url(https://images.unsplash.com/photo-1485808258529-a871c11a7d6d?auto=format&fit=crop&w=750&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D)no-repeat center;
+		background: url(../images/5.jpg)no-repeat center;
+		height: 335px;
 	}
 	.about-img2 {
-		background: url(https://images.unsplash.com/photo-1456456496250-d5e7c0a9b44d?auto=format&fit=crop&w=751&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D)no-repeat center;
+		background: url(../images/2.jpg)no-repeat center;
 	}
 	.about-img2 ,.about-img1{
 		-webkit-background-size: cover;
@@ -721,7 +725,7 @@ p,ul li,ol li{
 		min-height: 291px;
 	}
 	.about-bg{
-		background: url(http://multitape.co/wp-content/uploads/2016/07/services_-digital-printing.jpg)no-repeat center;
+		background: url(../images/3.jpg)no-repeat center;
 		-webkit-background-size: cover;
 		background-size: cover;
 		-moz-background-size: cover;
@@ -1187,8 +1191,6 @@ p,ul li,ol li{
 		margin: 3em 0 0;
 		background: #04354e;
 		padding: 2em 0;
-		border-top: 2px dashed #F5DDDD;
-		border-bottom: 2px dashed #F5DDDD;
 	}
 	.footer-copy {
 		margin: 2em 0 0;
@@ -1343,7 +1345,7 @@ p,ul li,ol li{
 	/*-- //welcome --*/
 	/*-- slid --*/
 	.slid {
-		background: url(http://multitape.co/wp-content/uploads/2016/07/services_-digital-printing.jpg)no-repeat center fixed;
+		background: url(../images/3.jpg)no-repeat center fixed;
 		background-size: cover;
 		min-height: 458px;
 		position:relative;
@@ -1627,8 +1629,9 @@ p,ul li,ol li{
 			}
 			.footer_grid_bottom ul li {
 				display: block;
-				width: 50%;
-				float: left;
+				width: 100%;
+				float: inherit;
+				align-items: center;
 			}
 			h3.w3layouts-title {
 				font-size: 43px;
@@ -1944,7 +1947,7 @@ p,ul li,ol li{
 		}
 		@media screen and (max-width: 600px){
 			.banner-info h1 a img {
-				width: 15%;
+				width: 80%;
 			}
 			.banner-info h2 {
 				letter-spacing: 2px;
@@ -2209,7 +2212,7 @@ p,ul li,ol li{
 			}
 			.banner-info h2 {
 				font-size: 2.6em;
-			}
+
 			.banner-info {
 				padding: 7em 0 0em;
 			}
@@ -2217,7 +2220,7 @@ p,ul li,ol li{
 				min-height: 420px;
 			}
 			.banner-info h1 a img {
-				width: 20%;
+				width: 100%;
 			}
 			.book-right1 {
 				padding: 2em;
