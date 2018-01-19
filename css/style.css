@@ -314,9 +314,9 @@ p,ul li,ol li{
 	.about-bg{
 		background: url(../images/4.jpg)no-repeat center;
 		-webkit-background-size: cover;
-    background-size: cover;
-    -moz-background-size: cover;
-    padding: 0
+		background-size: cover;
+		-moz-background-size: cover;
+		padding: 0
 	}
 	.about-bottom-text {
 		padding: 5.85em 5em;
@@ -419,30 +419,30 @@ p,ul li,ol li{
 	}
 
 	/*-- //contact --*/
-.contato{
-	padding: 0;
+	.contato{
+		padding: 0;
+		background-color: #04354e;
+		margin-bottom: 70px;
+	}
+/* schedule */
+.horario-atendimento{
+	background: #04354e;
+
+
+
+
 }
 
-
 	/*--footer--*/
-	.footer-grid {
-		background: #04354e;
-		margin-bottom: 3em;
+	.footer {
+		color: white;
+		padding: 30px;
+		background-color: #04354e;
+		clear: left;
+		text-align: center;
+		display: block;
 	}
-	.footer_grid_bottom ul {
-		padding: 0;
-		margin: 0;
-	}
-	.footer_grid_bottom ul li {
-		font-size: 1em;
-		color: #fff;
-		font-weight: 300;
-		margin-bottom: 1em;
-	}
-	.footer_grid_bottom ul li a{
-		color: #fff;
-		font-size: 15px;
-	}
+
 
 	.w3_agileits-subscribe {
 		width: 50%;
@@ -597,1009 +597,784 @@ p,ul li,ol li{
 	/*-- move top--*/
 	/* -- Responsive code -- */
 	@media screen and (max-width: 1600px){}
-	@media screen and (max-width: 1440px){
-	    .about-bottom-text {
-	        padding: 5.85em 4em;
-	    }
-	}
-	@media screen and (max-width: 1366px){
-	    .banner-info h2 {
-	        font-size: 5.3em;
-	    }
-	    .contact-right {
-	        padding: 4em 4em 4.8em;
-	    }
-	    .about-bottom-text {
-	        padding: 5.85em 3em;
-	    }
-	}
-	@media screen and (max-width: 1280px){
-
-	    .contact-right {
-	        padding: 4em 3em 4.8em;
-	    }
-	    .w3_agileits-subscribe {
-	        width: 55%;
-	    }
-	    .time {
-	        width: 72%;
-	    }
-	    .about-bottom-text {
-	        padding: 4.85em 3em;
-	    }
-	}
-	@media screen and (min-width: 1081px){
-
-	    .banner-btm{
-	        display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-	        display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-	        display: -ms-flexbox;      /* TWEENER - IE 10 */
-	        display: -webkit-flex;     /* NEW - Chrome */
-	        display: flex;
-	    }
-	    .banner-btm-g1,.banner-btm-g2 {
-	        -webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
-	        -moz-box-flex: 1;         /* OLD - Firefox 19- */
-	        width: 20%;               /* For old syntax, otherwise collapses. */
-	        -webkit-flex: 1;          /* Chrome */
-	        -ms-flex: 1;              /* IE 10 */
-	        flex: 1;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
-	    }
-	}
-	@media screen and (max-width: 1080px){
-	    .banner-layer, .agile-banner-main {
-	        min-height: 725px;
-	    }
-	    .banner-info h2 {
-	        font-size: 5.1em;
-	    }
-	    .book-left1 {
-	        width: 21%;
-	    }
-	    .footer_grid_bottom.contact ul li span {
-	        width: 79px;
-	    }
-	    .w3_agileits-subscribe {
-	        width: 64%;
-	    }
-	    #showLess,#loadMore{
-	        width:15%;
-	    }
-	    .subscribe.timings {
-	        width: 56%;
-	    }
-	    .slid-text {
-	        padding: 4em;
-	        width: 61%;
-	    }
-	    .banner-btm-g1, .banner-btm-g2  {
-	        width: 87%;
-	        float: none;
-	        margin: 0 auto;
-	     }
-	}
-	@media screen and (max-width: 1050px){
-	    .banner-layer, .agile-banner-main {
-	        min-height: 680px;
-	    }
-	   .map {
-	        width: 100%;
-	        float: none;
-	    }
-	    .contact-right{
-	        width:98%;
-	        float: none;
-	    }
-	    .banner-btm-g1, .banner-btm-g2 {
-	        width: 78%;
-	    }
-	    .footer_grid_bottom.contact ul li span {
-	        width: 74px;
-	        height: 74px;
-	        padding-top: 21px;
-	    }
-	    .subscribe-form {
-	        width: 76%;
-	    }
-	    .footer-grid {
-	        padding: 2em 0 1em;
-	    }
-	    .subscribe.timings {
-	        width: 61%;
-	    }
-	    h3.w3layouts-title {
-	        font-size: 41px;
-	    }
-	    .about-bottom-text {
-	        padding: 4.85em 2em;
-	    }
-	}
-
-	@media screen and (max-width: 1024px){
-	    .banner-info h2 {
-	        font-size: 4.9em;
-	    }
-	    .banner-layer, .agile-banner-main {
-	        min-height: 635px;
-	    }
-	    .banner-info h2 {
-	         margin: 65px 0 0;
-	    }
-	    .map iframe {
-	        min-height: 450px;
-	    }
-	    .slid-text {
-	        padding: 4em 2em;
-	        width: 65%;
-	    }
-	    .carousel-control.right {
-	        right: 7px;
-	    }
-	    .carousel-control.left {
-	        left: 7px;
-	    }
-	}
-	@media screen and (min-width: 992px){
-
-	.about-grid{
-	    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-	    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-	    display: -ms-flexbox;      /* TWEENER - IE 10 */
-	    display: -webkit-flex;     /* NEW - Chrome */
-	    display: flex;
-	}
-	.about-right{
-	     -webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
-	    -moz-box-flex: 1;         /* OLD - Firefox 19- */
-	    /* For old syntax, otherwise collapses. */
-	    -webkit-flex: 1;          /* Chrome */
-	    -ms-flex: 1;              /* IE 10 */
-	    flex: 1;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
-	}
-	.about-bg{
-	    -webkit-box-flex: 2;      /* OLD - iOS 6-, Safari 3.1-6 */
-	    -moz-box-flex: 2;         /* OLD - Firefox 19- */
-	    width: 20%;               /* For old syntax, otherwise collapses. */
-	    -webkit-flex: 2;          /* Chrome */
-	    -ms-flex: 2;
-	    flex:2;           /* IE 10 */
-
-	}
-	.about-right,.about-bottom-text,.about-img2, .about-img1{
-	    -webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
-	    -moz-box-flex: 1;         /* OLD - Firefox 19- */
-	     -webkit-flex: 1;          /* Chrome */
-	    -ms-flex: 1;
-	    flex:1;           /* IE 10 */
-	}
-	.about-sub-grid,about-right-flex{
-	    padding:0;
-	    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-	    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-	    display: -ms-flexbox;      /* TWEENER - IE 10 */
-	    display: -webkit-flex;     /* NEW - Chrome */
-	    display: flex;
-	}
-	}
-	@media screen and (max-width: 991px){
-	    .section {
-	        padding: 70px 0;
-	    }
-	    .list-right {
-	        background: #04354e;
-	        float: none;
-	    }
-	    .list-right li {
-	        padding: 4px 0 18px;
-	    }
-	    .navbar-default .navbar-nav>li>a {
-	        padding: 12px 13px 8px;
-	    }
-	    .header-main {
-	         height: 65px;
-	    }
-	    .list-right li {
-	        padding: 20px 0 18px;
-	    }
-	    .navbar-nav>li {
-	        margin: 0 16px;
-	    }
-	    .navbar-right {
-	        float: none !important;
-	    }
-	    .banner-info h2 {
-	        margin: 53px 0 0;
-	         font-size: 4.5em;
-	    }
-	    .banner-layer, .agile-banner-main {
-	        min-height: 595px;
-	    }
-	    .book-right1 {
-	        width: 74%;
-	    }
-	    .book-left1 {
-	        width: 26%;
-	    }
-	    .footer_grid_bottom.contact ul li span {
-	        width: 69px;
-	        height: 69px;
-	        padding-top: 21px;
-	    }
-	    .footer_grid_bottom ul li {
-	        display: block;
-	        width: 50%;
-	        float: left;
-	    }
-	    h3.w3layouts-title {
-	        font-size: 43px;
-	    }
-	    #showLess, #loadMore {
-	        width: 19.5%;
-	    }
-	    .load_more {
-	        padding: 3em 2em 4em;
-	    }
-	    .subscribe.timings {
-	        width: 66%;
-	    }
-	    .chef-right {
-	        padding: 1em 0em 0 3em;
-	    }
-	    .slid p {
-	        letter-spacing: 1px;
-	    }
-	    .slid h4 {
-	        font-size: 2.8em;
-	        margin-bottom: 0.5em;
-	    }
-	    .banner-btm-g1, .banner-btm-g2 {
-	        width: 87%;
-	    }
-
-
-	.about-bg {
-	        min-height: 300px;
-	    }
-	    .about-img2, .about-img1 {
-	        min-height: 236px;
-	    }
-	    .menu-info .nav-tabs li {
-	        margin: 0 0.2em;
-	    }
-	    .load_more {
-	        padding: 2em 2em 4em;
-	    }
-	    .chef-bottom-right {
-	        padding-right: 19em;
-	        margin-top: -2em;
-	    }
-	    .chef-bottom-left {
-	        padding: 5em 0em;
-	    }
-	}
-	@media screen and (max-width: 900px){
-	    .banner-layer, .agile-banner-main {
-	        min-height: 595px;
-	    }
-	    .banner-info h1 a img {
-	        width: 11%;
-	    }
-	    .map iframe {
-	        min-height: 395px;
-	    }
-	    .w3_agileits-subscribe {
-	        width: 75%;
-	    }
-	    .subscribe.timings {
-	        width: 72%;
-	    }
-	    .slid h4 {
-	        font-size: 2.7em;
-	    }
-	    .banner-btm-g1, .banner-btm-g2 {
-	        width: 90%;
-	    }
-	    .chef img {
-	        width: 78%;
-	    }
-	}
-	@media screen and (max-width: 800px){
-	    .banner-info h1 a {
-	        font-size: 70px;
-	    }
-	    .footer_grid_bottom.contact ul li span {
-	        width: 63px;
-	        height: 63px;
-	        padding-top: 18px;
-	        font-size: 27px;
-	    }
-	    .w3_agileits-subscribe {
-	        width: 82%;
-	    }
-	    .w3_agileits-subscribe h4 {
-	        font-size: 39px;
-	    }
-	    .social_list li a {
-	        font-size: 20px;
-	        line-height: 42px;
-	        width: 40px;
-	        height: 40px;
-	    }
-	    .w3_agileits-subscribe h5 {
-	        font-size: 23px;
-	    }
-	    .section {
-	        padding: 65px 0;
-	    }
-	    .subscribe.timings {
-	        width: 75%;
-	    }
-	    .slid-text {
-	        padding: 3em 2em;
-	        width: 68%;
-	    }
-	    .carousel {
-	        padding: 0 40px 0 40px;
-	    }
-	}
-	@media screen and (max-width: 768px){
-	    .banner-info h2 {
-	        margin: 40px 0 0;
-	        font-size: 4.2em;
-	    }
-	    .time {
-	        width: 76%;
-	    }
-	    .slid h4 {
-	        font-size: 2.5em;
-	    }
-	    .about-img2, .about-img1 {
-	        min-height: 264px;
-	    }
-	    h3.w3layouts-title img {
-	        width: 13%;
-	    }
-	}
-
-	@media(max-width:767px){
-	    .navbar-right {
-	        float:none! important;
-	    }
-		.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-			border: none;
-			background: #000;
+		@media screen and (max-width: 1440px){
+			.about-bottom-text {
+				padding: 5.85em 4em;
+			}
 		}
-		.navbar-toggle {
-			position: relative;
-			float: right;
-			padding: 8px 9px;
-			margin-right: 15px;
-			margin-bottom: 8px;
-			background-color: transparent;
-			background-image: none;
-			border: 1px solid transparent;
-			border-radius: 0;
+		@media screen and (max-width: 1366px){
+			.banner-info h2 {
+				font-size: 5.3em;
+			}
+			.contact-right {
+				padding: 4em 4em 4.8em;
+			}
+			.about-bottom-text {
+				padding: 5.85em 3em;
+			}
 		}
-		.navbar-default .navbar-toggle {
-			border-color: #0cb8b6;
-			background: transparent;
-			margin: 0;
-			margin: 4px 0px 4px 0px;
-		}
-		.navbar-default .navbar-toggle .icon-bar {
-			background-color: #fff;
-		}
-		.navbar-default .navbar-nav > li:nth-child(1) a {
-			margin-top: 22px;
-		}
-		.navbar-nav > li {
-			margin: 0;
-		}
-		.navbar-default .navbar-nav>li>a {
-			font-size: 13px;
-			padding: 15px 9px 14px;
-			letter-spacing: 1.5px;
-		}
-		div#bs-example-navbar-collapse-1 {
-			background: rgba(0, 0, 0, 0.83);
-			margin: 0;
-			padding: 0;
-			position: absolute;
-			width: 100%;
-			top: 100%;
-			z-index: 999;
-			/*margin-top:0.5em;*/
-			text-align: center!important;
-		}
-		.navbar-nav > li {
-			float: none;
-			width: 24%;
-			margin: 0 auto;
-			margin-bottom: 12px;
-		}
-		.navbar-nav {
-			margin: 0;
-		}
-		.navbar {
-			padding: 0.9em 0;
-	    }
-	    .list-right {
-	        float: none;
-	    }
-	    .list-right li {
-	        padding: 11px 0 12px;
-	    }
-	    .banner-info {
-	        padding: 9em 0 0em;
-	    }
-	    .banner-layer, .agile-banner-main {
-	        min-height: 580px;
-	    }
-	    .banner-info h2 {
-	        margin: 38px 0 0;
-	        font-size: 4.1em;
-	    }
-	}
-	@media screen and (max-width: 736px){
-	    .subscribe-form {
-	        width: 85%;
-	    }
-	    h3.w3layouts-title img {
-	        width: 14%;
-	    }
-	    #showLess, #loadMore {
-	        width: 20.5%;
-	    }
-	    h3.w3layouts-title {
-	        font-size: 40px;
-	    }
-	    .subscribe.timings {
-	        width: 80%;
-	    }
-	    .slid-text {
-	        padding: 2em;
-	        width: 70%;
-	    }
-	    .main-menu-bg {
-	        padding: 1em 2.2em 3em;
-	    }
-	    .chef h4 {
-	        font-size: 33px;
-	    }
-	    .load_more {
-	        padding: 2em 2em 3em;
-	    }
-	    .chef-right {
-	        padding: 1em 2em 0 0em;
-	    }
-	    .chef-bottom-left {
-	        padding: 5em 2em;
-	    }
-	}
-	@media screen and (max-width: 667px){
-	    .banner-info h1 a {
-	        font-size: 65px;
-	    }
-	    .banner-info h2 {
-	        font-size: 3.7em;
-	    }
-	    .footer_grid_bottom.contact ul li span {
-	        width: 58px;
-	        height: 58px;
-	        padding-top: 17px;
-	        font-size: 25px;
-	    }
-	    .subscribe-form {
-	        width: 97%;
-	    }
-	    #showLess, #loadMore {
-	        width: 22.5%;
-	    }
-	    .subscribe.timings {
-	        width: 83%;
-	    }
-	    .slid-text {
-	        padding: 2em;
-	        width: 75%;
-	    }
-	    .slid {
-	        min-height: 404px;
-	    }
-	    .banner-btm-g1, .banner-btm-g2 {
-	        width: 94%;
-	    }
-	    .section {
-	        padding: 55px 0;
-	    }
-	    .menu-info .nav-tabs li {
-	        display: block;
-	    }
-	    .chef-bottom-right {
-	        padding-right: 5em;
-	    }
-	}
-	@media screen and (max-width: 640px){
-	    .banner-info h2{
-	        letter-spacing: 3px;
-	    }
-	    .book-left1 {
-	        background-size: 100% 100%;
-	    }
-	    .map iframe {
-	        min-height: 350px;
-	    }
-	    .contact-right {
-	        padding: 4em 2em 4.8em;
-	    }
-	    #showLess, #loadMore {
-	        width: 24%;
-	    }
-	    .slid-text {
-	        padding: 2em;
-	        width: 84%;
-	    }
-	    h4.sub-title {
-	        font-size: 28px;
-	    }
-	}
-	@media screen and (max-width: 600px){
-	    .banner-info h1 a img {
-	        width: 15%;
-	    }
-	    .banner-info h2 {
-	        letter-spacing: 2px;
-	    }
-	    .banner-info h1 a {
-	        font-size: 60px;
-	    }
-	    .banner-layer, .agile-banner-main {
-	        min-height: 560px;
-	    }
-	    .book-left1 {
-	        min-height: 220px;
-	    }
-	    .w3_agileits-subscribe {
-	        width: 93%;
-	    }
-	    .book-right input[type=submit] {
-	        padding: 13px 0;
-	        font-size: 15px;
-	    }
-	    .w3_agileits-subscribe h4 {
-	        font-size: 37px;
-	    }
-	    .w3_agileits-subscribe h5 {
-	        font-size: 22px;
-	    }
-	    .contact-right {
-	        padding: 4em 2em 4em;
-	    }
-	    p.sub-p {
-	        font-size: 16px;
-	        margin-top: 10px;
-	    }
-	    #showLess, #loadMore {
-	        width: 26%;
-	    }
-	    h3.w3layouts-title {
-	        font-size: 37px;
-	    }
-	    .load_more {
-	        padding: 2em 2em 3em;
-	    }
-	    .subscribe.timings {
-	        width: 90%;
-	    }
-	    .about-img2, .about-img1 {
-	        min-height: 292px;
-	    }
-	    .chef h4 {
-	        font-size: 30px;
-	    }
-	}
-	@media screen and (max-width: 568px){
-	    .banner-info h2 {
-	        letter-spacing: 1px;
-	        font-size: 3.6em;
-	    }
-	    .banner-layer, .agile-banner-main {
-	        min-height: 530px;
-	    }
-	    .contact-right input[type="text"], .contact-right input[type="email"] {
-	        width: 98%;
-	    }
-	    .contact-right input[type="submit"] {
-	         padding: 8px 15px;
-	        margin: 2% 1% 0;
-	        font-size: 13px;
-	    }
-	    ul#myList {
-	        margin: 2em 0 1em;
-	    }
-	    #showLess, #loadMore {
-	        width: 28%;
-	    }
-	    .slid-text {
-	        padding: 1em 2em;
-	        width: 97%;
-	    }
-	    h3.title-main {
-	        font-size: 36px;
-	    }
-	    .banner-btm-g1, .banner-btm-g2 {
-	        width: 100%;
-	    }
-	    h4.sub-title {
-	        font-size: 27px;
-	    }
-	    h4.title1 {
-	        font-size: 35px;
-	    }
-	    .about-bottom-text {
-	        padding: 3.85em 2em;
-	    }
-	    .about-img2, .about-img1 {
-	        min-height: 258px;
-	    }
-	}
-	@media screen and (max-width: 480px){
-	    .banner-info {
-	        padding: 8em 0 0em;
-	    }
-	    .banner-info h2 {
-	        letter-spacing: 0px;
-	        font-size: 3.4em;
-	    }
-	    .banner-layer, .agile-banner-main {
-	        min-height: 500px;
-	    }
-	    .banner-info h1 a {
-	        font-size: 54px;
-	    }
-	    .navbar-default .navbar-nav > li:nth-child(1) a {
-	        margin-top: 10px;
-	    }
-	    .navbar-nav > li {
-	        width: 27%;
-	    }
-	    .book-left1 {
-	        width: 56%;
-	        float: none;
-	    }
-	    .book-right1 {
-	        width: 100%;
-	        float: none;
-	        padding: 2em 3em 2em;
-	        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-	    }
-	    .book-right input[type="text"] {
-			padding: .6em 1em;
-		}
-		.book-right input[type=submit] {
-			padding: 11px 0;
-	    }
-	    .footer-copy {
-	        margin: 1em 0 0;
-	    }
-	    .footer_grid_bottom ul li {
-	        width: 100%;
-	        float: none;
-	    }
-	    .footer_grid_bottom.contact ul li span {
-	        width: 53px;
-	        height: 53px;
-	        padding-top: 15px;
-	        font-size: 23px;
-	    }
-	    .subscribe-form {
-	        width: 100%;
-	    }
-	    .w3_agileits-subscribe input[type="email"] {
-	        width: 75%;
-	    }
-	    .w3_agileits-subscribe input[type="submit"] {
-	        width: 25%;
-	    }
-	    #showLess, #loadMore {
-	        width: 34%;
-	    }
-	    .menu-text-right h4, .menu-text-right1 h4 {
-	        font-size: 25px;
-	    }
-	    .menu-text-left {
-	        width: 30%;
-	    }
-	    .menu-text-right {
-	        width: 92%;
-	        margin-left: 10px;
-	    }
-	    .subscribe.timings {
-	        width: 100%;
-	    }
-	    .about-bottom-text {
-	        padding: 2.85em 2em;
-	    }
-	    h3.modal-title {
-	        font-size: 39px;
-	    }
-	    .chef-bottom-left {
-	        padding: 4em 2em;
-	    }
-	    .chef img {
-	        width: 100%;
-	    }
-	    .chef-right {
-	        padding: 1em 1em 0 1em;
-	    }
+		@media screen and (max-width: 1280px){
 
-	}
-	@media screen and (max-width: 414px){
-	    .banner-info h2 {
-	        font-size: 2.9em;
-	    }
-	    .banner-layer, .agile-banner-main {
-	        min-height: 450px;
-	    }
-	    .list-icon {
-	        font-size: 1.3em !important;
-	    }
-	    .navbar-nav > li {
-	        width: 34%;
-	    }
-	    .contact-right {
-	        padding: 2em;
-	    }
-	    .w3_agileits-subscribe h5 {
-	        font-size: 20px;
-	    }
-	    .w3_agileits-subscribe {
-	        width: 100%;
-	        padding: 2em 1em;
-	    }
-	    .load_more {
-	        padding: 2em 1em 3em;
-	    }
-	    h3.title-main {
-	        font-size: 34px;
-	    }
-	    .about-bottom-text {
-	        padding: 2.85em 1em;
-	    }
-	    h4.title1 {
-	        font-size: 32px;
-	    }
-	    #showLess, #loadMore {
-	        width: 39%;
-	    }
-	    .about-bg {
-	        min-height: 230px;
-	        width: 92%;
-	        margin: 0 auto;
-	    }
-	}
-	@media screen and (min-width: 385px){
+			.contact-right {
+				padding: 4em 3em 4.8em;
+			}
+			.w3_agileits-subscribe {
+				width: 55%;
+			}
+			.time {
+				width: 72%;
+			}
+			.about-bottom-text {
+				padding: 4.85em 3em;
+			}
+		}
+		@media screen and (min-width: 1081px){
 
-	.about-right{
-	    -webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
-	   -moz-box-flex: 1;         /* OLD - Firefox 19- */
-	   /* For old syntax, otherwise collapses. */
-	   -webkit-flex: 1;          /* Chrome */
-	   -ms-flex: 1;              /* IE 10 */
-	   flex: 1;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
-	}
-	.about-right,.about-bottom-text,.about-img2, .about-img1{
-	   -webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
-	   -moz-box-flex: 1;         /* OLD - Firefox 19- */
-	    -webkit-flex: 1;          /* Chrome */
-	   -ms-flex: 1;
-	   flex:1;           /* IE 10 */
-	}
-	.about-sub-grid,about-right-flex{
-	   padding:0;
-	   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-	   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-	   display: -ms-flexbox;      /* TWEENER - IE 10 */
-	   display: -webkit-flex;     /* NEW - Chrome */
-	   display: flex;
-	}
-	}
-	@media screen and (max-width: 384px){
-	    .banner-info h1 a {
-	        font-size: 50px;
-	    }
-	    .banner-info h2 {
-	        font-size: 2.6em;
-	    }
-	    .banner-info {
-	        padding: 7em 0 0em;
-	    }
-	    .banner-layer, .agile-banner-main {
-	        min-height: 420px;
-	    }
-	    .banner-info h1 a img {
-	        width: 20%;
-	    }
-	    .book-right1 {
-	        padding: 2em;
-	    }
-	    h3.title-contact {
-	        font-size: 37px;
-	    }
-	    .w3_agileits-subscribe input[type="submit"],.w3_agileits-subscribe input[type="email"] {
-	        width: 100%;
-	    }
-	    .w3_agileits-subscribe input[type="submit"]:hover {
-	        border-top: 1px solid #04354e;
-	        border-left: 0;
-	    }
-	    p.sub-p {
-	        line-height: 1.5;
-	    }
-	    .chef-left,.chef-right {
-	        width: 100%;
-	    }
-	    #showLess, #loadMore {
-	        width: 42%;
-	    }
-	    .footer-copy p {
-	        font-size: 0.95em;
-	    }
-	    .chef-bottom-right {
-	        width: 100%;
-	    }
-	    .about-bg {
-	        min-height: 230px;
-	    }
-	    .slid h4 {
-	        font-size: 2.3em;
-	    }
-	    .about-img2, .about-img1 {
-	        min-height: 253px;
-	    }
-	    .slid-text {
-	        padding: 1em 2.3em;
-	    }
-	    h4.sub-title {
-	        font-size: 25px;
-	    }
-	    h3.w3layouts-title {
-	        font-size: 35px;
-	    }
-	    .section {
-	        padding: 50px 0;
-	    }
-	}
+			.banner-btm{
+				display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+				display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+				display: -ms-flexbox;      /* TWEENER - IE 10 */
+				display: -webkit-flex;     /* NEW - Chrome */
+				display: flex;
+			}
+			.banner-btm-g1,.banner-btm-g2 {
+				-webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
+				-moz-box-flex: 1;         /* OLD - Firefox 19- */
+				width: 20%;               /* For old syntax, otherwise collapses. */
+				-webkit-flex: 1;          /* Chrome */
+				-ms-flex: 1;              /* IE 10 */
+				flex: 1;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+			}
+		}
+		@media screen and (max-width: 1080px){
+			.banner-layer, .agile-banner-main {
+				min-height: 725px;
+			}
+			.banner-info h2 {
+				font-size: 5.1em;
+			}
+			.book-left1 {
+				width: 21%;
+			}
+			.footer_grid_bottom.contact ul li span {
+				width: 79px;
+			}
+			.w3_agileits-subscribe {
+				width: 64%;
+			}
+			#showLess,#loadMore{
+				width:15%;
+			}
+			.subscribe.timings {
+				width: 56%;
+			}
+			.slid-text {
+				padding: 4em;
+				width: 61%;
+			}
+			.banner-btm-g1, .banner-btm-g2  {
+				width: 87%;
+				float: none;
+				margin: 0 auto;
+			}
+		}
+		@media screen and (max-width: 1050px){
+			.banner-layer, .agile-banner-main {
+				min-height: 680px;
+			}
+			.map {
+				width: 100%;
+				float: none;
+			}
+			.contact-right{
+				width:98%;
+				float: none;
+			}
+			.banner-btm-g1, .banner-btm-g2 {
+				width: 78%;
+			}
+			.footer_grid_bottom.contact ul li span {
+				width: 74px;
+				height: 74px;
+				padding-top: 21px;
+			}
+			.subscribe-form {
+				width: 76%;
+			}
+			.footer-grid {
+				padding: 2em 0 1em;
+			}
+			.subscribe.timings {
+				width: 61%;
+			}
+			h3.w3layouts-title {
+				font-size: 41px;
+			}
+			.about-bottom-text {
+				padding: 4.85em 2em;
+			}
+		}
 
-	@media screen and (max-width: 375px){
-	    .banner-info h2 {
-	        font-size: 2.5em;
-	    }
-	    .banner-info h2 {
-	        margin: 25px 0 0;
-	    }
-	    .banner-info p {
-	        font-size: 14px;
-	        margin-top: 8px;
-	    }
-	    .banner-layer, .agile-banner-main {
-	        min-height: 405px;
-	    }
-	    span.sub-title {
-	        width: 85px
-	    }
-	    .banner-layer {
-	        background: rgba(0, 0, 0, 0.56);
-	    }
-	    .list-right li {
-	        margin-right: 13px;
-	    }
-	    .navbar-default .navbar-nav>li>a {
-	        padding: 9px 9px 14px;
-	    }
-	    .footer_grid_bottom.contact ul li span {
-	        width: 49px;
-	        height: 49px;
-	        padding-top: 13px;
-	        font-size: 22px;
-	        line-height: 23px;
-	    }
-	    p.sub-p {
-	        font-size: 14px;
-	        letter-spacing: 1.5px;
-	    }
-	    .w3_agileits-subscribe h4 {
-	        font-size: 35px;
-	    }
-	    .time {
-	        width: 90%;
-	    }
-	    .banner-btm-g2 {
-	        padding: 2em 1.8em;
-	    }
-	    .chef-bottom-right {
-	        padding-right: 1em;
-	    }
-	    .about-bottom-text:before {
-	        left: 46%;
-	    }
-	    span.sub-title.p1 {
-	        width: 36%;
-	    }
-	    .menu-text-left {
-	        width: 40%;
-	    }
-	    #showLess, #loadMore {
-	        width: 43%;
-	    }
-	    .modal-body h4 {
-	        font-size: 26px;
-	    }
-	}
-	@media screen and (max-width: 320px){
-	    .banner-info h2 {
-	        font-size: 2.15em;
-	    }
-	    .section {
-	        padding: 30px 0;
-	    }
-	    h3.title-main {
-	        font-size: 32px;
-	    }
 
-	    .navbar-nav > li {
-	        width: 42%;
-	    }
-	    ul.list-right p ,.list-right> li > a{
-	        font-size: 14px;
-	    }
-	    .list-right li {
-	        padding: 10px 0 8px;
-	        margin-right: 0;
-	    }
-	    .book-left1 {
-	        min-height: 200px;
-	    }
-	    .form-left,.form-right {
-	        float: none;
-	        width: 100%;
-	    }
-	    .book-right input[type="text"] {
-	        padding: .4em 1em;
-	    }
-	    .book-left1 {
-	        min-height: 185px;
-	    }
-	    .contact-right {
-	        padding: 2em 1em;
-	    }
-	    .footer-copy p {
-	        padding: 0 10px;
-	    }
-	    #showLess, #loadMore {
-	        width: 54%;
-	        margin: 1em 0 0;
-	    }
-	    .main-menu-bg {
-	        padding: 1em 1.2em 3em;
-	    }
-	    .load_more {
-	        padding: 2em 0em 3em;
-	    }
-	    #showLess, #loadMore {
-	        width: 48%;
-	        font-size: 1em;
-	    }
-	    .chef-bottom-left {
-	        padding: 2em 1em 4em;
-	    }
-	    h4.sub-title {
-	        font-size: 23px;
-	    }
-	    span.sub-title.p1 {
-	        width: 34%;
-	    }
-	    .w3_agileits-subscribe h5 {
-	        font-size: 18px;
-	    }
-	}
-	/* -- //Responsive code -- */
+
+		@media screen and (max-width: 1024px){
+			.banner-info h2 {
+				margin: 40px 0 0;
+				font-size: 4.2em;
+			}
+			.time {
+				width: 76%;
+			}
+			.slid h4 {
+				font-size: 2.5em;
+			}
+			.about-img2, .about-img1 {
+				min-height: 264px;
+			}
+			h3.w3layouts-title img {
+				width: 13%;
+			}
+		}
+
+		@media(max-width:1024px){
+			.navbar-right {
+				float:none! important;
+			}
+			.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+				border: none;
+				background: #000;
+			}
+			.navbar-toggle {
+				position: relative;
+				float: right;
+				padding: 8px 9px;
+				margin-right: 15px;
+				margin-bottom: 8px;
+				background-color: transparent;
+				background-image: none;
+				border: 1px solid transparent;
+				border-radius: 0;
+			}
+			.navbar-default .navbar-toggle {
+				border-color: #0cb8b6;
+				background: transparent;
+				margin: 0;
+				margin: 4px 0px 4px 0px;
+			}
+			.navbar-default .navbar-toggle .icon-bar {
+				background-color: #fff;
+			}
+			.navbar-default .navbar-nav > li:nth-child(1) a {
+				margin-top: 22px;
+			}
+			.navbar-nav > li {
+				margin: 0;
+			}
+			.navbar-default .navbar-nav>li>a {
+				font-size: 13px;
+				padding: 15px 9px 14px;
+				letter-spacing: 1.5px;
+			}
+			div#bs-example-navbar-collapse-1 {
+				background: rgba(0, 0, 0, 0.83);
+				margin: 0;
+				padding: 0;
+				position: absolute;
+				width: 100%;
+				top: 100%;
+				z-index: 999;
+				/*margin-top:0.5em;*/
+				text-align: center!important;
+			}
+			.navbar-nav > li {
+				float: none;
+				width: 24%;
+				margin: 0 auto;
+				margin-bottom: 12px;
+			}
+			.navbar-nav {
+				margin: 0;
+			}
+			.navbar {
+				padding: 0.9em 0;
+			}
+			.list-right {
+				float: none;
+			}
+			.list-right li {
+				padding: 11px 0 12px;
+			}
+			.banner-info {
+				padding: 9em 0 0em;
+			}
+			.banner-layer, .agile-banner-main {
+				min-height: 580px;
+			}
+			.banner-info h2 {
+				margin: 38px 0 0;
+				font-size: 4.1em;
+			}
+		}
+		@media screen and (max-width: 736px){
+			.subscribe-form {
+				width: 85%;
+			}
+			h3.w3layouts-title img {
+				width: 14%;
+			}
+			#showLess, #loadMore {
+				width: 20.5%;
+			}
+			h3.w3layouts-title {
+				font-size: 40px;
+			}
+			.subscribe.timings {
+				width: 80%;
+			}
+			.slid-text {
+				padding: 2em;
+				width: 70%;
+			}
+			.main-menu-bg {
+				padding: 1em 2.2em 3em;
+			}
+			.chef h4 {
+				font-size: 33px;
+			}
+			.load_more {
+				padding: 2em 2em 3em;
+			}
+			.chef-right {
+				padding: 1em 2em 0 0em;
+			}
+			.chef-bottom-left {
+				padding: 5em 2em;
+			}
+		}
+		@media screen and (max-width: 667px){
+			.banner-info h1 a {
+				font-size: 65px;
+			}
+			.banner-info h2 {
+				font-size: 3.7em;
+			}
+			.footer_grid_bottom.contact ul li span {
+				width: 58px;
+				height: 58px;
+				padding-top: 17px;
+				font-size: 25px;
+			}
+			.subscribe-form {
+				width: 97%;
+			}
+			#showLess, #loadMore {
+				width: 22.5%;
+			}
+			.subscribe.timings {
+				width: 83%;
+			}
+			.slid-text {
+				padding: 2em;
+				width: 75%;
+			}
+			.slid {
+				min-height: 404px;
+			}
+			.banner-btm-g1, .banner-btm-g2 {
+				width: 94%;
+			}
+			.section {
+				padding: 55px 0;
+			}
+			.menu-info .nav-tabs li {
+				display: block;
+			}
+			.chef-bottom-right {
+				padding-right: 5em;
+			}
+		}
+		@media screen and (max-width: 640px){
+			.banner-info h2{
+				letter-spacing: 3px;
+			}
+			.book-left1 {
+				background-size: 100% 100%;
+			}
+			.map iframe {
+				min-height: 350px;
+			}
+			.contact-right {
+				padding: 4em 2em 4.8em;
+			}
+			#showLess, #loadMore {
+				width: 24%;
+			}
+			.slid-text {
+				padding: 2em;
+				width: 84%;
+			}
+			h4.sub-title {
+				font-size: 28px;
+			}
+		}
+		@media screen and (max-width: 600px){
+			.banner-info h1 a img {
+				width: 15%;
+			}
+			.banner-info h2 {
+				letter-spacing: 2px;
+			}
+			.banner-info h1 a {
+				font-size: 60px;
+			}
+			.banner-layer, .agile-banner-main {
+				min-height: 560px;
+			}
+			.book-left1 {
+				min-height: 220px;
+			}
+			.w3_agileits-subscribe {
+				width: 93%;
+			}
+			.book-right input[type=submit] {
+				padding: 13px 0;
+				font-size: 15px;
+			}
+			.w3_agileits-subscribe h4 {
+				font-size: 37px;
+			}
+			.w3_agileits-subscribe h5 {
+				font-size: 22px;
+			}
+			.contact-right {
+				padding: 4em 2em 4em;
+			}
+			p.sub-p {
+				font-size: 16px;
+				margin-top: 10px;
+			}
+			#showLess, #loadMore {
+				width: 26%;
+			}
+			h3.w3layouts-title {
+				font-size: 37px;
+			}
+			.load_more {
+				padding: 2em 2em 3em;
+			}
+			.subscribe.timings {
+				width: 90%;
+			}
+			.about-img2, .about-img1 {
+				min-height: 292px;
+			}
+			.chef h4 {
+				font-size: 30px;
+			}
+		}
+		@media screen and (max-width: 568px){
+			.banner-info h2 {
+				letter-spacing: 1px;
+				font-size: 3.6em;
+			}
+			.banner-layer, .agile-banner-main {
+				min-height: 530px;
+			}
+			.contact-right input[type="text"], .contact-right input[type="email"] {
+				width: 98%;
+			}
+			.contact-right input[type="submit"] {
+				padding: 8px 15px;
+				margin: 2% 1% 0;
+				font-size: 13px;
+			}
+			ul#myList {
+				margin: 2em 0 1em;
+			}
+			#showLess, #loadMore {
+				width: 28%;
+			}
+			.slid-text {
+				padding: 1em 2em;
+				width: 97%;
+			}
+			h3.title-main {
+				font-size: 36px;
+			}
+			.banner-btm-g1, .banner-btm-g2 {
+				width: 100%;
+			}
+			h4.sub-title {
+				font-size: 27px;
+			}
+			h4.title1 {
+				font-size: 35px;
+			}
+			.about-bottom-text {
+				padding: 3.85em 2em;
+			}
+			.about-img2, .about-img1 {
+				min-height: 258px;
+			}
+		}
+		@media screen and (max-width: 480px){
+			.banner-info {
+				padding: 8em 0 0em;
+			}
+			.banner-info h2 {
+				letter-spacing: 0px;
+				font-size: 3.4em;
+			}
+			.banner-layer, .agile-banner-main {
+				min-height: 500px;
+			}
+			.banner-info h1 a {
+				font-size: 54px;
+			}
+			.navbar-default .navbar-nav > li:nth-child(1) a {
+				margin-top: 10px;
+			}
+			.navbar-nav > li {
+				width: 27%;
+			}
+			.book-left1 {
+				width: 56%;
+				float: none;
+			}
+			.book-right1 {
+				width: 100%;
+				float: none;
+				padding: 2em 3em 2em;
+				clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+			}
+			.book-right input[type="text"] {
+				padding: .6em 1em;
+			}
+			.book-right input[type=submit] {
+				padding: 11px 0;
+			}
+			.footer-copy {
+				margin: 1em 0 0;
+			}
+			.footer_grid_bottom ul li {
+				width: 100%;
+				float: none;
+			}
+			.footer_grid_bottom.contact ul li span {
+				width: 53px;
+				height: 53px;
+				padding-top: 15px;
+				font-size: 23px;
+			}
+			.subscribe-form {
+				width: 100%;
+			}
+			.w3_agileits-subscribe input[type="email"] {
+				width: 75%;
+			}
+			.w3_agileits-subscribe input[type="submit"] {
+				width: 25%;
+			}
+			#showLess, #loadMore {
+				width: 34%;
+			}
+			.menu-text-right h4, .menu-text-right1 h4 {
+				font-size: 25px;
+			}
+			.menu-text-left {
+				width: 30%;
+			}
+			.menu-text-right {
+				width: 92%;
+				margin-left: 10px;
+			}
+			.subscribe.timings {
+				width: 100%;
+			}
+			.about-bottom-text {
+				padding: 2.85em 2em;
+			}
+			h3.modal-title {
+				font-size: 39px;
+			}
+			.chef-bottom-left {
+				padding: 4em 2em;
+			}
+			.chef img {
+				width: 100%;
+			}
+			.chef-right {
+				padding: 1em 1em 0 1em;
+			}
+
+		}
+		@media screen and (max-width: 414px){
+			.banner-info h2 {
+				font-size: 2.9em;
+			}
+			.banner-layer, .agile-banner-main {
+				min-height: 450px;
+			}
+			.list-icon {
+				font-size: 1.3em !important;
+			}
+			.navbar-nav > li {
+				width: 34%;
+			}
+			.contact-right {
+				padding: 2em;
+			}
+			.w3_agileits-subscribe h5 {
+				font-size: 20px;
+			}
+			.w3_agileits-subscribe {
+				width: 100%;
+				padding: 2em 1em;
+			}
+			.load_more {
+				padding: 2em 1em 3em;
+			}
+			h3.title-main {
+				font-size: 34px;
+			}
+			.about-bottom-text {
+				padding: 2.85em 1em;
+			}
+			h4.title1 {
+				font-size: 32px;
+			}
+			#showLess, #loadMore {
+				width: 39%;
+			}
+			.about-bg {
+				min-height: 230px;
+				width: 92%;
+				margin: 0 auto;
+			}
+		}
+		@media screen and (min-width: 385px){
+
+			.about-right{
+				-webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
+				-moz-box-flex: 1;         /* OLD - Firefox 19- */
+				/* For old syntax, otherwise collapses. */
+				-webkit-flex: 1;          /* Chrome */
+				-ms-flex: 1;              /* IE 10 */
+				flex: 1;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+			}
+			.about-right,.about-bottom-text,.about-img2, .about-img1{
+				-webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
+				-moz-box-flex: 1;         /* OLD - Firefox 19- */
+				-webkit-flex: 1;          /* Chrome */
+				-ms-flex: 1;
+				flex:1;           /* IE 10 */
+			}
+			.about-sub-grid,about-right-flex{
+				padding:0;
+				display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+				display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+				display: -ms-flexbox;      /* TWEENER - IE 10 */
+				display: -webkit-flex;     /* NEW - Chrome */
+				display: flex;
+			}
+		}
+		@media screen and (max-width: 384px){
+			.banner-info h1 a {
+				font-size: 50px;
+			}
+			.banner-info h2 {
+				font-size: 2.6em;
+			}
+			.banner-info {
+				padding: 7em 0 0em;
+			}
+			.banner-layer, .agile-banner-main {
+				min-height: 420px;
+			}
+			.banner-info h1 a img {
+				width: 20%;
+			}
+			.book-right1 {
+				padding: 2em;
+			}
+			h3.title-contact {
+				font-size: 37px;
+			}
+			.w3_agileits-subscribe input[type="submit"],.w3_agileits-subscribe input[type="email"] {
+				width: 100%;
+			}
+			.w3_agileits-subscribe input[type="submit"]:hover {
+				border-top: 1px solid #04354e;
+				border-left: 0;
+			}
+			p.sub-p {
+				line-height: 1.5;
+			}
+			.chef-left,.chef-right {
+				width: 100%;
+			}
+			#showLess, #loadMore {
+				width: 42%;
+			}
+			.footer-copy p {
+				font-size: 0.95em;
+			}
+			.chef-bottom-right {
+				width: 100%;
+			}
+			.about-bg {
+				min-height: 230px;
+			}
+			.slid h4 {
+				font-size: 2.3em;
+			}
+			.about-img2, .about-img1 {
+				min-height: 253px;
+			}
+			.slid-text {
+				padding: 1em 2.3em;
+			}
+			h4.sub-title {
+				font-size: 25px;
+			}
+			h3.w3layouts-title {
+				font-size: 35px;
+			}
+			.section {
+				padding: 50px 0;
+			}
+		}
+
+		@media screen and (max-width: 375px){
+			.banner-info h2 {
+				font-size: 2.5em;
+			}
+			.banner-info h2 {
+				margin: 25px 0 0;
+			}
+			.banner-info p {
+				font-size: 14px;
+				margin-top: 8px;
+			}
+			.banner-layer, .agile-banner-main {
+				min-height: 405px;
+			}
+			span.sub-title {
+				width: 85px
+			}
+			.banner-layer {
+				background: rgba(0, 0, 0, 0.56);
+			}
+			.list-right li {
+				margin-right: 13px;
+			}
+			.navbar-default .navbar-nav>li>a {
+				padding: 9px 9px 14px;
+			}
+			.footer_grid_bottom.contact ul li span {
+				width: 49px;
+				height: 49px;
+				padding-top: 13px;
+				font-size: 22px;
+				line-height: 23px;
+			}
+			p.sub-p {
+				font-size: 14px;
+				letter-spacing: 1.5px;
+			}
+			.w3_agileits-subscribe h4 {
+				font-size: 35px;
+			}
+			.time {
+				width: 90%;
+			}
+			.banner-btm-g2 {
+				padding: 2em 1.8em;
+			}
+			.chef-bottom-right {
+				padding-right: 1em;
+			}
+			.about-bottom-text:before {
+				left: 46%;
+			}
+			span.sub-title.p1 {
+				width: 36%;
+			}
+			.menu-text-left {
+				width: 40%;
+			}
+			#showLess, #loadMore {
+				width: 43%;
+			}
+			.modal-body h4 {
+				font-size: 26px;
+			}
+		}
+		@media screen and (max-width: 320px){
+			.banner-info h2 {
+				font-size: 2.15em;
+			}
+			.section {
+				padding: 30px 0;
+			}
+			h3.title-main {
+				font-size: 32px;
+			}
+
+			.navbar-nav > li {
+				width: 42%;
+			}
+			ul.list-right p ,.list-right> li > a{
+				font-size: 14px;
+			}
+			.list-right li {
+				padding: 10px 0 8px;
+				margin-right: 0;
+			}
+			.book-left1 {
+				min-height: 200px;
+			}
+			.form-left,.form-right {
+				float: none;
+				width: 100%;
+			}
+			.book-right input[type="text"] {
+				padding: .4em 1em;
+			}
+			.book-left1 {
+				min-height: 185px;
+			}
+			.contact-right {
+				padding: 2em 1em;
+			}
+			.footer-copy p {
+				padding: 0 10px;
+			}
+			#showLess, #loadMore {
+				width: 54%;
+				margin: 1em 0 0;
+			}
+			.main-menu-bg {
+				padding: 1em 1.2em 3em;
+			}
+			.load_more {
+				padding: 2em 0em 3em;
+			}
+			#showLess, #loadMore {
+				width: 48%;
+				font-size: 1em;
+			}
+			.chef-bottom-left {
+				padding: 2em 1em 4em;
+			}
+			h4.sub-title {
+				font-size: 23px;
+			}
+			span.sub-title.p1 {
+				width: 34%;
+			}
+			.w3_agileits-subscribe h5 {
+				font-size: 18px;
+			}
+		}
+		/* -- //Responsive code -- */
